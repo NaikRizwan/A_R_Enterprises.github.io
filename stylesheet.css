@@ -1,0 +1,78 @@
+ /* footer {
+    
+   height: 400px;
+  }  */
+  .element{
+  display: inline-block;
+  width: 49%;
+  
+  
+ 
+  }
+  /* .map-container {
+    height: 300px; /* Set the desired height for your map 
+    margin-bottom: 20px;
+   */
+   
+  .contact-info ul {
+    list-style-type: none;
+   
+    margin-left: 20%;
+  }
+  
+  .contact-info ul li {
+    margin-bottom: 15px;
+   color: black;
+  }
+  
+  .contact-info a {
+    color:black;
+    text-decoration: none;
+  }
+
+  .navbar .navbar-nav .nav-link:hover {
+    background-color: black;
+    color: #ffacb7;
+  }  
+.navbar .navbar-nav .nav-link {
+  padding: 0.6em;
+  font-size: 15px;
+  transition: all 0.5s;
+}
+.navbar .navbar-brand {
+  padding: 0 0.6em;
+  font-size: 30px;
+  font-weight: bold;
+}
+@media only screen and (min-width: 992px) {
+  .navbar {
+    padding: 0;
+  }
+  .navbar .navbar-nav .nav-link {
+    padding: 1em 0.3em;
+  }
+  .navbar .navbar-brand {
+    padding: 0 0.5em;
+  }
+  
+}
+@media (max-width: 576px) {
+  .element{
+    display: block;
+    width: 100%;
+  }
+  
+}
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40vh; /* Adjust as needed for your layout */
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+  width: 400px;
+  max-height: 300px;
+}
